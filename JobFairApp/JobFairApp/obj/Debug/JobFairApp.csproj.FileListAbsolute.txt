@@ -11,3 +11,17 @@ C:\Users\Bo\Desktop\Classes\Programming environments\VS\JobFairApp\JobFairApp\bi
 C:\Users\Bo\Desktop\Classes\Programming environments\VS\JobFairApp\JobFairApp\obj\Debug\JobFairApp.exe
 C:\Users\Bo\Desktop\Classes\Programming environments\VS\JobFairApp\JobFairApp\obj\Debug\JobFairApp.pdb
 C:\Users\Bo\Desktop\Classes\Programming environments\VS\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.UserProfile.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\bin\Debug\JobFairApp.exe.config
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\bin\Debug\JobFairApp.exe
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\bin\Debug\JobFairApp.pdb
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csprojResolveAssemblyReference.cache
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Form1.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateCandidate.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateVenue.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.PersonControl.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.UserProfile.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Properties.Resources.resources
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csproj.GenerateResource.Cache
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csproj.CoreCompileInputs.cache
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.exe
+C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.pdb

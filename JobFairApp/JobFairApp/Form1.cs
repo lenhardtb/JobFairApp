@@ -16,5 +16,33 @@ namespace JobFairApp
         {
             InitializeComponent();
         }
+
+        private void venue_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Forms.CreateVenue createVenue = new Forms.CreateVenue();
+            createVenue.VisibleChanged += delegate (object source, EventArgs args)
+            {
+                if (!createVenue.Visible)
+                {
+                    this.Show();
+                }
+            };
+            createVenue.Show();
+        }
+
+        private void person_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Forms.CreateCandidate createCandidate = new Forms.CreateCandidate();
+            createCandidate.VisibleChanged += delegate (object source, EventArgs args)
+            {
+                if (!createCandidate.Visible)
+                {
+                    this.Show();
+                }
+            };
+            createCandidate.Show();
+        }
     }
 }

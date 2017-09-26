@@ -100,19 +100,19 @@ namespace JobFairApp.Classes
             statement = "INSERT INTO People " +
                     "(First, MI, Last, Title, " +
                     "Address1, Address2, City, State, Zip, " +
-                    "Email, Phone) " +
-                    "(" +
-                    "'" + First    + "'," +
-                    "'" + MI       + "'," +
-                    "'" + Last     + "'," +
-                    "'" + Title    + "'," +
-                    "'" + Address1 + "'," +
-                    "'" + Address2 + "'," +
-                    "'" + City     + "'," +
-                    "'" + State    + "'," +
-                    "'" + Zip      + "'," +
-                    "'" + Email    + "'," +
-                    "'" + Phone    + "')";
+                    "Email, Phone) VALUES" +
+                     "(" +
+                     "'" + First    + "'," +
+                     "'" + MI       + "'," +
+                     "'" + Last     + "'," +
+                     "'" + Title    + "'," +
+                     "'" + Address1 + "'," +
+                     "'" + Address2 + "'," +
+                     "'" + City     + "'," +
+                     "'" + State    + "'," +
+                     "'" + Zip      + "'," +
+                     "'" + Email    + "'," +
+                     "'" + Phone    + "')";
 
             SqlConnection connection = new SqlConnection(MySQLUtils.ConnectionString);
 
@@ -133,7 +133,7 @@ namespace JobFairApp.Classes
                 int newID = 0;
                 while (IDs.HasRows)
                 {
-                    newID = IDs.GetInt32(0);
+                    newID = int.Parse(IDs[0].ToString());
                     IDs.Read();
                 }
 
