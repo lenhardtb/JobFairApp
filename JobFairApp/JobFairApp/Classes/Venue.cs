@@ -62,7 +62,7 @@ namespace JobFairApp.Classes
             String statement;
             if (ID == -1)
             {
-                statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) " +
+                statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) VALUES" +
                     "(" +
                     "'" + Name + "'," +
                     "'" + ShortDescription + "'," +
