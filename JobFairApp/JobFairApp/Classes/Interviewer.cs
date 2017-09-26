@@ -104,7 +104,7 @@ namespace JobFairApp.Classes
             }
 
             String statement;
-            statement = "INSERT INTO Interviewers (ID, PersonID) " +
+            statement = "INSERT INTO Interviewers (ID, PersonID) VALUES" +
                 "(" +
                 "'" + ID + "'," +
                 "'" + PersonID + "')";
