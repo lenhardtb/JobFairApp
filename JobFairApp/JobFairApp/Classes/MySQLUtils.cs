@@ -8,7 +8,7 @@ namespace JobFairApp.Classes
 {
     public class MySQLUtils
     {
-        public const String ConnectionString = @"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;";
+        public const String ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=JobFair;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public const int NullID = -1;
     }
 }
