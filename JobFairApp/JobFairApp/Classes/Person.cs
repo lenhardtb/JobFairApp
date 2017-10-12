@@ -123,22 +123,7 @@ namespace JobFairApp.Classes
             command.CommandType = CommandType.Text;
             command.Connection = connection;
 
-            int retValue = command.ExecuteNonQuery();
-
-            if (ID == MySQLUtils.NullID)//created new entry - read last ID to get new ID
-            {
-                command.CommandText = "SELECT ID FROM People";
-                SqlDataReader IDs = command.ExecuteReader();
-
-                int newID = 0;
-                while (IDs.HasRows)
-                {
-                    newID = int.Parse(IDs[0].ToString());
-                    IDs.Read();
-                }
-
-                ID = newID;
-            }
+            int retValue = command.ExecuteNonQuery(); // command.ExecuteReader(); placeholder
 
             connection.Close();
 

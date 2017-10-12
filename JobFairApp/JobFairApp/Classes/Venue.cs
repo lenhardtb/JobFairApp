@@ -62,7 +62,7 @@ namespace JobFairApp.Classes
             String statement;
             if (ID == -1)
             {
-                statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) VALUES" +
+                statement = "INSERT INTO Venues (Name, [Short Description], [Long Description]) VALUES" +
                     "(" +
                     "'" + Name + "'," +
                     "'" + ShortDescription + "'," +
@@ -83,23 +83,8 @@ namespace JobFairApp.Classes
             SqlCommand command = new SqlCommand();
             command.CommandText = statement;
             command.CommandType = CommandType.Text;
-
+            command.Connection = connection;
             int retValue = command.ExecuteNonQuery();
-
-            if (ID == -1)//created new entry - get last ID to know new ID
-            {
-                command.CommandText = "SELECT ID FROM Venues";
-                SqlDataReader IDs = command.ExecuteReader();
-
-                int newID = 0;
-                while (IDs.HasRows)
-                {
-                    newID = IDs.GetInt32(0);
-                    IDs.Read();
-                }
-
-                ID = newID;
-            }
 
             connection.Close();
 
