@@ -140,70 +140,70 @@
             this.firstBox.Location = new System.Drawing.Point(86, 50);
             this.firstBox.Name = "firstBox";
             this.firstBox.Size = new System.Drawing.Size(100, 20);
-            this.firstBox.TabIndex = 10;
+            this.firstBox.TabIndex = 1;
             // 
             // miBox
             // 
             this.miBox.Location = new System.Drawing.Point(86, 70);
             this.miBox.Name = "miBox";
             this.miBox.Size = new System.Drawing.Size(100, 20);
-            this.miBox.TabIndex = 11;
+            this.miBox.TabIndex = 2;
             // 
             // lastBox
             // 
             this.lastBox.Location = new System.Drawing.Point(86, 90);
             this.lastBox.Name = "lastBox";
             this.lastBox.Size = new System.Drawing.Size(100, 20);
-            this.lastBox.TabIndex = 12;
+            this.lastBox.TabIndex = 3;
             // 
             // titleBox
             // 
             this.titleBox.Location = new System.Drawing.Point(86, 110);
             this.titleBox.Name = "titleBox";
             this.titleBox.Size = new System.Drawing.Size(100, 20);
-            this.titleBox.TabIndex = 13;
+            this.titleBox.TabIndex = 4;
             // 
             // address1Box
             // 
             this.address1Box.Location = new System.Drawing.Point(86, 130);
             this.address1Box.Name = "address1Box";
             this.address1Box.Size = new System.Drawing.Size(100, 20);
-            this.address1Box.TabIndex = 14;
+            this.address1Box.TabIndex = 5;
             // 
             // address2Box
             // 
             this.address2Box.Location = new System.Drawing.Point(86, 150);
             this.address2Box.Name = "address2Box";
             this.address2Box.Size = new System.Drawing.Size(100, 20);
-            this.address2Box.TabIndex = 15;
+            this.address2Box.TabIndex = 6;
             // 
             // cityBox
             // 
             this.cityBox.Location = new System.Drawing.Point(86, 170);
             this.cityBox.Name = "cityBox";
             this.cityBox.Size = new System.Drawing.Size(100, 20);
-            this.cityBox.TabIndex = 16;
+            this.cityBox.TabIndex = 7;
             // 
             // zipBox
             // 
             this.zipBox.Location = new System.Drawing.Point(86, 210);
             this.zipBox.Name = "zipBox";
             this.zipBox.Size = new System.Drawing.Size(100, 20);
-            this.zipBox.TabIndex = 17;
+            this.zipBox.TabIndex = 9;
             // 
             // emailBox
             // 
             this.emailBox.Location = new System.Drawing.Point(86, 230);
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(100, 20);
-            this.emailBox.TabIndex = 18;
+            this.emailBox.TabIndex = 10;
             // 
             // loadIDButton
             // 
             this.loadIDButton.Location = new System.Drawing.Point(33, 12);
             this.loadIDButton.Name = "loadIDButton";
             this.loadIDButton.Size = new System.Drawing.Size(120, 23);
-            this.loadIDButton.TabIndex = 20;
+            this.loadIDButton.TabIndex = 0;
             this.loadIDButton.Text = "Load User ID";
             this.loadIDButton.UseVisualStyleBackColor = true;
             this.loadIDButton.Click += new System.EventHandler(this.loadIDButton_Click);
@@ -213,7 +213,7 @@
             this.verifyButton.Location = new System.Drawing.Point(63, 278);
             this.verifyButton.Name = "verifyButton";
             this.verifyButton.Size = new System.Drawing.Size(75, 23);
-            this.verifyButton.TabIndex = 21;
+            this.verifyButton.TabIndex = 12;
             this.verifyButton.Text = "Verify";
             this.verifyButton.UseVisualStyleBackColor = true;
             this.verifyButton.Click += new System.EventHandler(this.verifyButton_Click);
@@ -241,14 +241,14 @@
             this.phoneBox.Location = new System.Drawing.Point(86, 250);
             this.phoneBox.Name = "phoneBox";
             this.phoneBox.Size = new System.Drawing.Size(100, 20);
-            this.phoneBox.TabIndex = 24;
+            this.phoneBox.TabIndex = 11;
             // 
             // stateBox
             // 
             this.stateBox.Location = new System.Drawing.Point(86, 190);
             this.stateBox.Name = "stateBox";
             this.stateBox.Size = new System.Drawing.Size(100, 20);
-            this.stateBox.TabIndex = 25;
+            this.stateBox.TabIndex = 8;
             // 
             // PersonControl
             // 

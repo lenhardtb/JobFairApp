@@ -105,6 +105,9 @@
     <EmbeddedResource Include="Forms\CreateCandidate.resx">
       <DependentUpon>CreateCandidate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CreateFair.resx">
+      <DependentUpon>CreateFair.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CreateVenue.resx">
       <DependentUpon>CreateVenue.cs</DependentUpon>
     </EmbeddedResource>

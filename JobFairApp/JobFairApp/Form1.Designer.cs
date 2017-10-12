@@ -30,11 +30,12 @@
         {
             this.person_btn = new System.Windows.Forms.Button();
             this.venue_btn = new System.Windows.Forms.Button();
+            this.JobFair_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // person_btn
             // 
-            this.person_btn.Location = new System.Drawing.Point(12, 53);
+            this.person_btn.Location = new System.Drawing.Point(12, 70);
             this.person_btn.Name = "person_btn";
             this.person_btn.Size = new System.Drawing.Size(104, 23);
             this.person_btn.TabIndex = 3;
@@ -44,7 +45,7 @@
             // 
             // venue_btn
             // 
-            this.venue_btn.Location = new System.Drawing.Point(12, 24);
+            this.venue_btn.Location = new System.Drawing.Point(12, 41);
             this.venue_btn.Name = "venue_btn";
             this.venue_btn.Size = new System.Drawing.Size(104, 23);
             this.venue_btn.TabIndex = 2;
@@ -52,11 +53,22 @@
             this.venue_btn.UseVisualStyleBackColor = true;
             this.venue_btn.Click += new System.EventHandler(this.venue_btn_Click);
             // 
+            // JobFair_btn
+            // 
+            this.JobFair_btn.Location = new System.Drawing.Point(12, 12);
+            this.JobFair_btn.Name = "JobFair_btn";
+            this.JobFair_btn.Size = new System.Drawing.Size(103, 23);
+            this.JobFair_btn.TabIndex = 4;
+            this.JobFair_btn.Text = "Create Job Fair";
+            this.JobFair_btn.UseVisualStyleBackColor = true;
+            this.JobFair_btn.Click += new System.EventHandler(this.JobFair_btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 334);
+            this.Controls.Add(this.JobFair_btn);
             this.Controls.Add(this.person_btn);
             this.Controls.Add(this.venue_btn);
             this.Name = "Form1";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button person_btn;
         private System.Windows.Forms.Button venue_btn;
+        private System.Windows.Forms.Button JobFair_btn;
     }
 }
 

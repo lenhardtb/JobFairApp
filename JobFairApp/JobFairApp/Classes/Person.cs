@@ -125,20 +125,20 @@ namespace JobFairApp.Classes
 
             int retValue = command.ExecuteNonQuery();
 
-            if (ID == MySQLUtils.NullID)//created new entry - read last ID to get new ID
-            {
-                command.CommandText = "SELECT ID FROM People";
-                SqlDataReader IDs = command.ExecuteReader();
+            //if (ID == MySQLUtils.NullID)//created new entry - read last ID to get new ID
+            //{
+            //    command.CommandText = "SELECT ID FROM People";
+            //    SqlDataReader IDs = command.ExecuteReader();
 
-                int newID = 0;
-                while (IDs.HasRows)
-                {
-                    newID = int.Parse(IDs[0].ToString());
-                    IDs.Read();
-                }
+            //    int newID = 0;
+            //    while (IDs.HasRows)
+            //    {
+            //        newID = int.Parse(IDs[0].ToString());
+            //        IDs.Read();
+            //    }
 
-                ID = newID;
-            }
+            //    ID = newID;
+            //}
 
             connection.Close();
 
@@ -162,8 +162,7 @@ namespace JobFairApp.Classes
                     "Phone = '" + Phone + "' " +
                     "WHERE ID = '" + ID + "'";
 
-
-
+            
             SqlConnection connection = new SqlConnection(MySQLUtils.ConnectionString);
 
             connection.Open();

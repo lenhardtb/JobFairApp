@@ -44,5 +44,19 @@ namespace JobFairApp
             };
             createCandidate.Show();
         }
+
+        private void JobFair_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Forms.CreateFair createFair = new Forms.CreateFair();
+            createFair.VisibleChanged += delegate (object source, EventArgs args)
+            {
+                if (!createFair.Visible)
+                {
+                    this.Show();
+                }
+            };
+            createFair.Show();
+        }
     }
 }

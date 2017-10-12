@@ -14,6 +14,7 @@ namespace JobFairApp.Forms
 {
     public partial class UserProfile : Form
     {
+        //the file a recurring user's information would be in
         String loginPath = "JobFairAppData/login.txt";
 
         public UserProfile()
@@ -28,12 +29,15 @@ namespace JobFairApp.Forms
 
         private void UserProfile_Load(object sender, EventArgs e)
         {
+            //attempt to load a previous profile
             FileInfo file = new FileInfo(loginPath);
             if (file.Exists)
             {
                 StreamReader reader = file.OpenText();
 
                 String line = reader.ReadLine();
+
+                reader.Close();
 
                 int ID = int.Parse(line);
 

@@ -60,21 +60,12 @@ namespace JobFairApp.Classes
         public int Insert()
         {
             String statement;
-            if (ID == -1)
-            {
-                statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) VALUES" +
-                    "(" +
-                    "'" + Name + "'," +
-                    "'" + ShortDescription + "'," +
-                    "'" + LongDescription + "')";
-            }
-            else
-            {
-                statement = "UPDATE People SET " +
-                    "Name = '" + Name + "'" +
-                    " [Short Description] = '" + ShortDescription + "'" +
-                    " [Long Description] = '" + LongDescription + "'";
-            }
+            statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) VALUES" +
+                "(" +
+                "'" + Name + "'," +
+                "'" + ShortDescription + "'," +
+                "'" + LongDescription + "')";
+            
 
             SqlConnection connection = new SqlConnection(MySQLUtils.ConnectionString);
 
@@ -86,20 +77,20 @@ namespace JobFairApp.Classes
 
             int retValue = command.ExecuteNonQuery();
 
-            if (ID == -1)//created new entry - get last ID to know new ID
-            {
-                command.CommandText = "SELECT ID FROM Venues";
-                SqlDataReader IDs = command.ExecuteReader();
+            //if (ID == -1)//created new entry - get last ID to know new ID
+            //{
+            //    command.CommandText = "SELECT ID FROM Venues";
+            //    SqlDataReader IDs = command.ExecuteReader();
 
-                int newID = 0;
-                while (IDs.HasRows)
-                {
-                    newID = IDs.GetInt32(0);
-                    IDs.Read();
-                }
+            //    int newID = 0;
+            //    while (IDs.HasRows)
+            //    {
+            //        newID = IDs.GetInt32(0);
+            //        IDs.Read();
+            //    }
 
-                ID = newID;
-            }
+            //    ID = newID;
+            //}
 
             connection.Close();
 
@@ -114,7 +105,8 @@ namespace JobFairApp.Classes
             statement = "UPDATE People SET " +
                     "Name = '" + Name + "'" +
                     " [Short Description] = '" + ShortDescription + "'" +
-                    " [Long Description] = '" + LongDescription + "'";
+                    " [Long Description] = '" + LongDescription + "'" +
+                    "WHERE ID = '" + ID + "'";
             
             SqlConnection connection = new SqlConnection(MySQLUtils.ConnectionString);
 
