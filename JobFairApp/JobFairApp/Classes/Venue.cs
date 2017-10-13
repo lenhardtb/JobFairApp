@@ -60,7 +60,7 @@ namespace JobFairApp.Classes
         public int Insert()
         {
             String statement;
-            statement = "INSERT INTO Venues (Name, [Short Descrption], [Long Description]) VALUES" +
+            statement = "INSERT INTO Venues (Name, [Short Description], [Long Description]) VALUES" +
                 "(" +
                 "'" + Name + "'," +
                 "'" + ShortDescription + "'," +
@@ -74,6 +74,7 @@ namespace JobFairApp.Classes
             SqlCommand command = new SqlCommand();
             command.CommandText = statement;
             command.CommandType = CommandType.Text;
+            command.Connection = connection;
 
             int retValue = command.ExecuteNonQuery();
 
