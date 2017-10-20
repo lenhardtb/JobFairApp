@@ -25,3 +25,16 @@ C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairA
 C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csproj.CoreCompileInputs.cache
 C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.exe
 C:\Users\hwk66\Source\Repos\JobFairApp2\JobFairApp\JobFairApp\obj\Debug\JobFairApp.pdb
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csprojResolveAssemblyReference.cache
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Form1.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateCandidate.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateInterviewer.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateInterviewTimes.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.CreateVenue.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.PersonControl.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Forms.UserProfile.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.Properties.Resources.resources
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csproj.GenerateResource.Cache
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.csproj.CoreCompileInputs.cache
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.exe
+C:\Users\Hayden\Source\Repos\JobFairApp\JobFairApp\JobFairApp\obj\Debug\JobFairApp.pdb
