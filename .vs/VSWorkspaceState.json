@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\JobFairApp",
-    "\\JobFairApp\\JobFairApp"
+    "\\JobFairApp\\JobFairApp",
+    "\\JobFairApp\\JobFairApp\\Classes",
+    "\\JobFairApp\\JobFairApp\\Forms"
   ],
   "SelectedNode": "\\JobFairApp\\JobFairApp.sln",
   "PreviewInSolutionExplorer": false

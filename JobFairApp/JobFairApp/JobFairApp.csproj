@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Candidate.cs" />
+    <Compile Include="Classes\Company.cs" />
     <Compile Include="Classes\Interview.cs" />
     <Compile Include="Classes\Interviewer.cs" />
     <Compile Include="Classes\ISQLObject.cs" />
@@ -60,6 +61,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddCompanyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCompanyForm.Designer.cs">
+      <DependentUpon>AddCompanyForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CreateCandidate.cs">
       <SubType>Form</SubType>
@@ -85,6 +92,12 @@
     <Compile Include="Forms\CreateVenue.Designer.cs">
       <DependentUpon>CreateVenue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\CompanyProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CompanyProfile.Designer.cs">
+      <DependentUpon>CompanyProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\PersonControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +114,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddCompanyForm.resx">
+      <DependentUpon>AddCompanyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CompanyProfile.resx">
+      <DependentUpon>CompanyProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CreateCandidate.resx">
       <DependentUpon>CreateCandidate.cs</DependentUpon>
